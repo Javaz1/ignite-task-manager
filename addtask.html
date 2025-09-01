@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link href="src/output.css" rel="stylesheet"> 
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div>
+   <button data-modal-target="modal"  class="">CLick</button>
+    </div>
+    <div class="h-screen"> <div class="h-screen bg-black opacity-50 w-screen fixed left-0 top-0 flex rounded justify-center items-center font-bold ">
+        <form action="" class= " bg-white h-1h w-1/3 flex flex-col dark:bg-gray-950 px-10 py-10 rounded-md shadow-lg s" id="modal">
+            <div class="">
+            <label for="">Task Name:</label><br>
+            <input type="text" class="w-full px-4 py-3 ring-3 ring-red-800  rounded my-5">
+            </div>
+            <div>
+                <label for="">Description</label><br>
+              <textarea name="" id="" cols="" rows="2" class="w-full px-4 py-3 ring-3 ring-red-800  rounded my-5 resize-none"></textarea>
+            </div>
+            <div>
+                <label for="">Deadline</label><br>
+                <input type="date" class="w-full px-4 py-3 ring-3 ring-red-800  rounded my-5 ">
+                 <input type="time" class="w-full px-4 py-3 ring-3 ring-red-800  rounded my-5">
+            </div>
+           <div>
+            <input type="submit" value="Create"  class="bg-red-800 rounded py-2 px-3 font-normal text-white ">
+           </div>
+        </form>
+    </div>
+    </div>
+  
+ 
+
+</body>
+</html>
